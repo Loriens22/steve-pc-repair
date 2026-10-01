@@ -5,6 +5,7 @@ Godot 4.6.3 browser export verified in Chromium with WebGL 2.
 - Complete mission played through visible browser controls: briefcase, cat discovery, vault arrival, cover identity, circuit puzzle, coolant puzzle, evidence backup, key shutdown, extraction and ending.
 - Completed progress saved, page reloaded, and progress resumed successfully.
 - Music preference changed and game resumed after reload.
+- Browser save data is mirrored synchronously so an immediate reload retains progress and audio preferences.
 - No browser script errors or page errors during the complete run.
 - Phone-sized viewport (390 × 844) checked for title, wrapped subtitles, virtual joystick movement and case file controls.
 - Native Godot physics run verified all mission navigation routes and puzzle completion, including extraction and save/resume.

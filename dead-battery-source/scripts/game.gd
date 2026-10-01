@@ -78,6 +78,7 @@ func _ready():
 	setup_environment()
 	setup_player()
 	setup_audio()
+	restore_web_save()
 	load_location("shop")
 	camera=Camera3D.new()
 	camera.fov=42
@@ -863,9 +864,23 @@ func has_save() -> bool:
 	return FileAccess.file_exists("user://shift.json")
 
 func save_game():
+	var saved=JSON.stringify({"location":location,"case":case_taken,"step":mission_step,"secrets":secrets,"alerts":alerts,"time":play_time,"music":music_on,"voices":voices_on,"finished":finished})
 	var f=FileAccess.open("user://shift.json",FileAccess.WRITE)
 	if f:
-		f.store_string(JSON.stringify({"location":location,"case":case_taken,"step":mission_step,"secrets":secrets,"alerts":alerts,"time":play_time,"music":music_on,"voices":voices_on,"finished":finished}))
+		f.store_string(saved)
+		f.close()
+	if OS.has_feature("web"):
+		# IndexedDB flushes asynchronously; mirror this small save before a tab can reload.
+		JavaScriptBridge.eval("(()=>{try{localStorage.setItem('steve.dead_battery.shift.v1',"+JSON.stringify(saved)+");}catch(e){}})();")
+
+func restore_web_save():
+	if not OS.has_feature("web"):return
+	var saved=JavaScriptBridge.eval("(()=>{try{return localStorage.getItem('steve.dead_battery.shift.v1');}catch(e){return null;}})();")
+	if saved is String and JSON.parse_string(saved) is Dictionary:
+		var f=FileAccess.open("user://shift.json",FileAccess.WRITE)
+		if f:
+			f.store_string(saved)
+			f.close()
 
 func load_preferences():
 	if not has_save():return
