@@ -1,0 +1,262 @@
+{
+  "opening": [
+    {
+      "speaker": "STEVE",
+      "text": "One battery. Two pounds. And your clock is yours again.",
+      "shot": "counter",
+      "audio": "opening_00",
+      "duration": 6.672
+    },
+    {
+      "speaker": "MS. ELLIS",
+      "text": "The other shop said I needed a new computer. This one has Arthur's letters on it.",
+      "shot": "ellis",
+      "audio": "opening_01",
+      "duration": 6.264
+    },
+    {
+      "speaker": "STEVE",
+      "text": "Then this is the right computer. I made you a second copy, too.",
+      "shot": "steve",
+      "audio": "opening_02",
+      "duration": 6.096
+    },
+    {
+      "speaker": "MS. ELLIS",
+      "text": "Ninety-three years old, and I finally meet an honest repair man.",
+      "shot": "ellis",
+      "audio": "opening_03",
+      "duration": 4.824
+    },
+    {
+      "speaker": "STEVE",
+      "text": "Don't tell anyone. Terrible for business.",
+      "shot": "chime",
+      "audio": "opening_04",
+      "duration": 4.488
+    },
+    {
+      "speaker": "STEVE",
+      "text": "I'll be right with you, Mr. Thomas.",
+      "shot": "oleg_enter",
+      "audio": "opening_05",
+      "duration": 3.264
+    },
+    {
+      "speaker": "MS. ELLIS",
+      "text": "Give that cat a biscuit from me. And get some sleep, Steven.",
+      "shot": "escort",
+      "audio": "opening_06",
+      "duration": 5.112
+    },
+    {
+      "speaker": "STEVE",
+      "text": "Yes, ma'am. See you next Thursday.",
+      "shot": "car",
+      "audio": "opening_07",
+      "duration": 4.536
+    },
+    {
+      "speaker": "OLEG",
+      "text": "Mr. Thomas?",
+      "shot": "return",
+      "audio": "opening_08",
+      "duration": 2.088
+    },
+    {
+      "speaker": "STEVE",
+      "text": "You're wearing sunglasses in a computer shop, Oleg. I had to give you something ordinary.",
+      "shot": "steve",
+      "audio": "opening_09",
+      "duration": 7.08
+    },
+    {
+      "speaker": "OLEG",
+      "text": "Tallinn. Meridian. An asset called the Widowmaker. Eight million pension records. An auction at midnight.",
+      "shot": "case",
+      "audio": "opening_10",
+      "duration": 11.544
+    },
+    {
+      "speaker": "STEVE",
+      "text": "Someone found a way to steal from people who can't fight back.",
+      "shot": "steve",
+      "audio": "opening_11",
+      "duration": 4.344
+    },
+    {
+      "speaker": "OLEG",
+      "text": "Destroy the root signing key. The operation dies with it. First class. A service identity. And your usual tools.",
+      "shot": "case",
+      "audio": "opening_12",
+      "duration": 12.456
+    },
+    {
+      "speaker": "STEVE",
+      "text": "One hundred percent up front.",
+      "shot": "steve",
+      "audio": "opening_13",
+      "duration": 2.88
+    },
+    {
+      "speaker": "OLEG",
+      "text": "Already paid.",
+      "shot": "oleg",
+      "audio": "opening_14",
+      "duration": 2.16
+    },
+    {
+      "speaker": "STEVE",
+      "text": "Good. The cat sitter charges by the hour.",
+      "shot": "wide",
+      "audio": "opening_15",
+      "duration": 4.656
+    }
+  ],
+  "arrival": [
+    {
+      "speaker": "OLEG",
+      "text": "Meridian sublevel eight. Your badge says night maintenance. Try to look underpaid.",
+      "shot": "vault",
+      "audio": "arrival_00",
+      "duration": 8.16
+    },
+    {
+      "speaker": "STEVE",
+      "text": "I run a repair shop. I've been rehearsing all my life.",
+      "shot": "steve",
+      "audio": "arrival_01",
+      "duration": 5.52
+    },
+    {
+      "speaker": "OLEG",
+      "text": "Security uses a closed circuit. Coolant, access, then the core. In that order.",
+      "shot": "vault",
+      "audio": "arrival_02",
+      "duration": 8.712
+    },
+    {
+      "speaker": "STEVE",
+      "text": "And the cameras?",
+      "shot": "steve",
+      "audio": "arrival_03",
+      "duration": 2.088
+    },
+    {
+      "speaker": "OLEG",
+      "text": "A patrol drone. Keep out of the red cone. That cart has a spare identity.",
+      "shot": "cart",
+      "audio": "arrival_04",
+      "duration": 7.728
+    },
+    {
+      "speaker": "STEVE",
+      "text": "All right. Let's fix somebody's very expensive mistake.",
+      "shot": "wide",
+      "audio": "arrival_05",
+      "duration": 5.592
+    }
+  ],
+  "core": [
+    {
+      "speaker": "MERIDIAN",
+      "text": "Unauthorized technician. Your warranty is void.",
+      "shot": "core",
+      "audio": "core_00",
+      "duration": 5.016
+    },
+    {
+      "speaker": "STEVE",
+      "text": "Story of my life.",
+      "shot": "steve",
+      "audio": "core_01",
+      "duration": 2.424
+    },
+    {
+      "speaker": "OLEG",
+      "text": "There is your asset. Take the key down and leave.",
+      "shot": "core",
+      "audio": "core_02",
+      "duration": 4.92
+    },
+    {
+      "speaker": "STEVE",
+      "text": "Those are people's lives in there. I'm taking a backup first.",
+      "shot": "steve",
+      "audio": "core_03",
+      "duration": 5.688
+    },
+    {
+      "speaker": "MERIDIAN",
+      "text": "You cannot repair what you do not understand.",
+      "shot": "core",
+      "audio": "core_04",
+      "duration": 3.576
+    },
+    {
+      "speaker": "STEVE",
+      "text": "I understand a dead battery when I see one.",
+      "shot": "wide",
+      "audio": "core_05",
+      "duration": 3.672
+    }
+  ],
+  "ending": [
+    {
+      "speaker": "OLEG",
+      "text": "The auction is gone. Every account frozen. You were asked to destroy the key.",
+      "shot": "end",
+      "audio": "ending_00",
+      "duration": 7.68
+    },
+    {
+      "speaker": "STEVE",
+      "text": "I did. And sent the records to the people who can return the money.",
+      "shot": "steve",
+      "audio": "ending_01",
+      "duration": 5.952
+    },
+    {
+      "speaker": "OLEG",
+      "text": "That was not in the brief.",
+      "shot": "oleg",
+      "audio": "ending_02",
+      "duration": 2.568
+    },
+    {
+      "speaker": "STEVE",
+      "text": "Neither was the part where Ms. Ellis was on page seven.",
+      "shot": "steve",
+      "audio": "ending_03",
+      "duration": 4.176
+    },
+    {
+      "speaker": "OLEG",
+      "text": "You always make it personal.",
+      "shot": "oleg",
+      "audio": "ending_04",
+      "duration": 2.784
+    },
+    {
+      "speaker": "STEVE",
+      "text": "No. I make it work.",
+      "shot": "cat",
+      "audio": "ending_05",
+      "duration": 3.696
+    },
+    {
+      "speaker": "MS. ELLIS",
+      "text": "Steven? It's me. My bank called. Something wonderful has happened.",
+      "shot": "phone",
+      "audio": "ending_06",
+      "duration": 6.792
+    },
+    {
+      "speaker": "STEVE",
+      "text": "Glad to hear it, Ms. Ellis. Bring the computer in Thursday. We'll give it a clean.",
+      "shot": "wide",
+      "audio": "ending_07",
+      "duration": 7.896
+    }
+  ]
+}
