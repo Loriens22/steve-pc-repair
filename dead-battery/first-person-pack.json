@@ -1,0 +1,24 @@
+{
+  "size": 54564136,
+  "sha256": "fa50bc9ded8706195e5ee71dae71afe05285be5887ce3c7ea3faf6a8c6cfbb69",
+  "parts": [
+    {
+      "url": "first-person-708904c05a857678.bin",
+      "offset": 0,
+      "size": 25165824,
+      "sha256": "708904c05a857678d22f0fde12750fc1dad2c08f04d8ce34d33fe74c2a1d84cc"
+    },
+    {
+      "url": "first-person-f1f4dc600d810c7c.bin",
+      "offset": 25165824,
+      "size": 25165824,
+      "sha256": "f1f4dc600d810c7c5efc9f5c6a27aed9b35eb4480b134b61a6e0db4f62ac9881"
+    },
+    {
+      "url": "first-person-d62ec513b475d678.bin",
+      "offset": 50331648,
+      "size": 4232488,
+      "sha256": "d62ec513b475d678f3df7d8411959b84063d633236f34c9b1dc7702f0280b555"
+    }
+  ]
+}

@@ -1,18 +1,17 @@
-# Steve The PC Repair Man
+# Steve The PC Repair Man — First Person
 
-## Play Case 01: Dead Battery
+**[Play the rebuilt 3D game](https://loriens22.github.io/steve-pc-repair/dead-battery/?v=first-person)**
 
-**[Open the 3D game in your browser](https://loriens22.github.io/steve-pc-repair/dead-battery/)**
+An honest repair shop. A very different night shift. Fix Ms. Ellis's Windows 98 PC, accept Oleg's fully prepaid contract, enter Meridian's Tallinn facility, preserve the stolen pension archive, destroy the battery-backed Widowmaker key, and return to BIOS.
 
-Steve runs an honest repair shop for people other shops overcharge. Oleg's next contract takes him to Tallinn, where a private data vault is auctioning stolen pension records. His tools are ordinary. His night shift isn't.
+The first-person rebuild includes a colliding player controller, enclosed environments, original textured Blender models, carried tools and physical repair actions. Trace live security feeds, time a camera-loop bridge, replace a correctly rated fuse, balance chilled-water flow and pressure, copy evidence, isolate dual UPS supplies, open tamper hardware and escape across a patrolled roof. Voiced cinematic scenes have synchronized captions. Eight discoveries reward exploration.
 
-This chapter includes an explorable repair shop, a complete vault mission, generated character voices with cinematic subtitles, three interactive repair puzzles, a patrol drone, eight optional discoveries, synthesized music and sound effects, and desktop and phone controls.
+Desktop: WASD and mouse, hold E or left mouse to use, 0–6 or Tab to select tools, Shift to run, C to crouch, F for the torch, Esc to pause. Phone: left movement stick, right-side swipe to look, hold ACT, and TOOLS/RUN/DUCK/LIGHT/UP buttons. Both touch orientations are supported. Audio, sensitivity, graphics and progress save on this device.
 
-All art and audio were created for this game. The original geometry was authored in Blender 4.3.2, and the playable 3D game was implemented and exported in Godot 4.6.3.
+All game assets were created for this game, including models, PBR surface maps, characters, typefaces, synthesized music and effects, and distinct generated dialogue performances. The engine is Godot 4.6.3; models were authored in Blender 4.3.2.
 
-- `dead-battery/` contains the tested browser build.
-- `dead-battery-source/` contains the editable Godot project, original Blender scenes, asset generators, dialogue, audio and source documentation.
+- [`dead-battery/`](dead-battery/) is the browser export.
+- [`dead-battery-source/`](dead-battery-source/) is the editable project, packed Blender scenes and asset generators.
+- [Asset provenance](dead-battery-source/docs/ASSETS.md) and [validation](dead-battery-source/docs/VALIDATION.md) describe the build and checks.
 
-Use WASD or click to walk, E to interact, Shift to hurry, and Esc to pause. On a phone, use the virtual stick and ACT, or tap prop markers. The case file contains mission notes and puzzle hints. Progress saves on the device.
-
-The earlier root build remains available at the repository's root Pages URL. This new chapter has its own browser route and complete editable source.
+The repository's root Pages URL also opens the new first-person game.

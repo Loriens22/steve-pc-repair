@@ -1,18 +1,15 @@
-# Original asset record
+# Original asset provenance
 
-Visual source: `tools/create_world.py`, deterministic random seed 98, authored and run in Blender 4.3.2.
+The Blender scenes, all game geometry and artwork were authored for Steve The PC Repair Man. There are no downloaded stock assets or asset-library dependencies.
 
-| Original Blender scene | Game export | Contents |
-| --- | --- | --- |
-| shop.blend | shop.glb | Cutaway office-park shop, counter, CRTs, repair benches, pegboard tools, motherboard, storage, coffee station, waiting area, cat accessories, car, signs and small details |
-| vault.blend | vault.glb | Meridian server vault, modular racks, coolant system, core, magnetic gate, maintenance cart, extraction lift, skyline and details |
-| steve.blend | steve.glb | Steve, rigged with arm and leg pivots for procedural animation |
-| ellis.blend | ellis.glb | Ms. Ellis, glasses, pearls, hair bun and limb pivots |
-| oleg.blend | oleg.glb | Oleg, suit, tie, dark glasses and limb pivots |
-| bios.blend | bios.glb | Tabby cat, triangular ears, paws, eyes, whiskers and curved tail |
+- `tools/create_world.py`: modeled rooms, office park, car, CRT, individual keyboard keys, PC board and components, moving screws and panels, case, phone, tickets, shelves, chairs, props, server cabinets and rack hardware, conduit, fuse cart, pump, gauges, valves, archive, HSM, UPS, ladder, roof, HVAC, skyline, anatomical characters, BIOS the cat, gloved hand and tools, patrol drone. Measurements are in meters. Bevels, normal maps, roughness and metallic surfaces are authored in the Blender pipeline.
+- `tools/create_materials.py`: seeded mathematical PBR textures for plaster, vinyl, wood, steel, aluminium, enamel, plastic, concrete, asphalt, rubber, fabric, skin, paper and circuit board; original printed notes and display art. Workshop Sans and its UI weight were constructed from original stroke geometry and exported as TrueType fonts.
+- `tools/optimize_models.py`: byte-identical texture deduplication. This changes storage and references, without changing geometry, surface maps or materials. Shared image hashes are recorded in `assets/textures/shared_manifest.json`.
+- `tools/create_audio.py`: new dialogue performances, footsteps, tool sounds, relay, fan, ventilation and drone. Effects are synthesized from oscillators and seeded noise. The included earlier score, chime, alarm, purr and other effects were likewise synthesized for this game's previous build; their generator is `tools/create_legacy_audio.py`. Speech is newly generated from the original script with distinct Guy, Sonia, Ryan and Aria voice performers through edge-tts; these are generated performances, not stock recordings.
+- `scripts/world.gd`: original procedural sky, local lighting, reflections, rain and level collision.
+- `scripts/hud.gd`: original interface, vector reticle, virtual stick, service floor plan, captions, menus and graphics controls.
+- `assets/icon.svg`: original game symbol; web favicons are derived from it.
 
-Dynamic original geometry authored in Godot: patrol drone, sight cone, magnetic beams and rain particles. Physics bodies approximate walkable environment geometry with measured box and capsule colliders. Static environmental meshes are combined by material to reduce draw calls.
+The game uses Blender and the Godot engine, as requested. Engine binaries and open-source runtime dependencies are software rather than game artwork. Their notices are in `web/`. The default Godot splash image is disabled and removed from the exported website.
 
-Audio source: `tools/create_audio.py`. Original NumPy synthesis creates door chime, UI click, confirmation, error, footsteps, purr, door, alarm, shutdown and two 48-second music loops. No prerecorded audio samples are used.
-
-Thirty-six newly generated dialogue performances cover the opening, vault arrival, core confrontation and ending. Steve, Ms. Ellis, Oleg and Meridian have distinct generated voices. Subtitles and timing are exported in `assets/dialogue.json`.
+The water-loop puzzle uses the energy balance ΔT = 4000 W / (4184 J/kg/K × water mass flow). Return/supply/bypass settings change flow and pressure continuously, with a thermal settling response. Walking uses capsule collision and 9.81 m/s² gravity. Surveillance traces rays through the same level collision geometry. These support believable gameplay; this is a fictional repair and stealth adventure.

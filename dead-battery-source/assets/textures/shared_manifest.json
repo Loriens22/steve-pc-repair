@@ -1,0 +1,536 @@
+{
+  "h_b0bd5120a54205160114be58.png": {
+    "sha256": "b0bd5120a54205160114be5874b91ba3942d487c0d613a66a95af7a9c90227ab",
+    "source_names": [
+      "concrete_normal"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_ab88203f3e7f85958905716c.png": {
+    "sha256": "ab88203f3e7f85958905716c51d6cbdc94e98d4330e608db3bd6ed2e33042a90",
+    "source_names": [
+      "concrete_color"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_4cc3b0a18ec29421bf477255.png": {
+    "sha256": "4cc3b0a18ec29421bf477255770f294ea5cd77491dbfde5735fef7f62af0acc3",
+    "source_names": [
+      "concrete_rough"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_90f9d5f8b66e7c839695d718.png": {
+    "sha256": "90f9d5f8b66e7c839695d71838b693e57e1b550b0c42320f93cda0e87d963e7a",
+    "source_names": [
+      "vinyl_normal"
+    ],
+    "models": [
+      "shop.glb"
+    ]
+  },
+  "h_b26cd84397e7c621dae70fc3.png": {
+    "sha256": "b26cd84397e7c621dae70fc38d29a4a77c699a038a9f66598f9dd6ad5f8d286d",
+    "source_names": [
+      "vinyl_color"
+    ],
+    "models": [
+      "shop.glb"
+    ]
+  },
+  "h_aac10c176da1f7c8a1233251.png": {
+    "sha256": "aac10c176da1f7c8a1233251acf34ed594e8deff6ed8abf9e3fcf500e4c0262c",
+    "source_names": [
+      "vinyl_rough"
+    ],
+    "models": [
+      "shop.glb"
+    ]
+  },
+  "h_43d919eeeafe53ed0bcf51eb.png": {
+    "sha256": "43d919eeeafe53ed0bcf51eb389368970884a5173bfede04b10f61a45b05da4f",
+    "source_names": [
+      "plaster_normal"
+    ],
+    "models": [
+      "shop.glb"
+    ]
+  },
+  "h_891b109f32b13e33fa7267bb.png": {
+    "sha256": "891b109f32b13e33fa7267bb55b370c132920630646791a6e680f5a85a95bc55",
+    "source_names": [
+      "plaster_color"
+    ],
+    "models": [
+      "shop.glb"
+    ]
+  },
+  "h_eef3f0231c71093cd4847f44.png": {
+    "sha256": "eef3f0231c71093cd4847f44f391ce10952663178b03ba8db9203ca21576abed",
+    "source_names": [
+      "plaster_rough"
+    ],
+    "models": [
+      "shop.glb"
+    ]
+  },
+  "h_f5449a8c23165a10d2e4d42c.png": {
+    "sha256": "f5449a8c23165a10d2e4d42c9660659904f0bf54fb222e860826e8ab90441b78",
+    "source_names": [
+      "aluminium_normal"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_5dd127f8a1285ea07a780d74.png": {
+    "sha256": "5dd127f8a1285ea07a780d74996d729c9c45e1251ad9607ce45efafcf89211c9",
+    "source_names": [
+      "aluminium_color"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_e9670d5257cab66e5fe41c21.png": {
+    "sha256": "e9670d5257cab66e5fe41c21c6750d5f8c8529afae4bc8e0fac42cb7627c5622",
+    "source_names": [
+      "aluminium_rough"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_e6777f7dea976e30a539d918.png": {
+    "sha256": "e6777f7dea976e30a539d91880fa93bb99740d457166728a2311b1d038c7f5ea",
+    "source_names": [
+      "enamel_normal"
+    ],
+    "models": [
+      "shop.glb",
+      "drone.glb",
+      "facility.glb",
+      "hands.glb"
+    ]
+  },
+  "h_b55d41a887a679fa2b24e797.png": {
+    "sha256": "b55d41a887a679fa2b24e797c11579928d70bad717ebcc17e8137cfff181ea0c",
+    "source_names": [
+      "enamel_color"
+    ],
+    "models": [
+      "shop.glb",
+      "drone.glb",
+      "facility.glb",
+      "hands.glb"
+    ]
+  },
+  "h_694b4293dee6765359cfd584.png": {
+    "sha256": "694b4293dee6765359cfd58487ce7089c9bb937f553e322130e30b7e72c9dbd5",
+    "source_names": [
+      "enamel_rough"
+    ],
+    "models": [
+      "shop.glb",
+      "drone.glb",
+      "facility.glb",
+      "hands.glb"
+    ]
+  },
+  "h_fe4668db7b23beb150d4c0b4.png": {
+    "sha256": "fe4668db7b23beb150d4c0b4486323f25e9f6b97542066ebef032f4d1d246056",
+    "source_names": [
+      "steel_normal"
+    ],
+    "models": [
+      "shop.glb",
+      "drone.glb",
+      "ellis.glb",
+      "facility.glb",
+      "hands.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_fc469c4ebfc231205a443541.png": {
+    "sha256": "fc469c4ebfc231205a4435412170ada63ebd2cd88797e4157010aef96507c5f6",
+    "source_names": [
+      "steel_color"
+    ],
+    "models": [
+      "shop.glb",
+      "drone.glb",
+      "ellis.glb",
+      "facility.glb",
+      "hands.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_b15d7ed0915b38204da816c2.png": {
+    "sha256": "b15d7ed0915b38204da816c2dd354e98d6369ec7eff2824e35d7abe370527876",
+    "source_names": [
+      "steel_rough"
+    ],
+    "models": [
+      "shop.glb",
+      "drone.glb",
+      "ellis.glb",
+      "facility.glb",
+      "hands.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_ce9912bcd8951f5650df7268.png": {
+    "sha256": "ce9912bcd8951f5650df72683b2bc72643387d726cbe5e448aa3ab045ea76062",
+    "source_names": [
+      "oak_normal"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_70e5068569de7ea29834b357.png": {
+    "sha256": "70e5068569de7ea29834b357bb3386d04b137c2f5c8bb2bfcf9bb9cea627d041",
+    "source_names": [
+      "oak_color"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_a2249251469810bda47a6e98.png": {
+    "sha256": "a2249251469810bda47a6e9820f9ac8f22a1823663e46f08e89fb53ff3925560",
+    "source_names": [
+      "oak_rough"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_258bc1e881e3b273526ff049.png": {
+    "sha256": "258bc1e881e3b273526ff049ac8a390469871503d3eca601d812d95d77ffb3ea",
+    "source_names": [
+      "rubber_normal"
+    ],
+    "models": [
+      "shop.glb",
+      "ellis.glb",
+      "facility.glb",
+      "hands.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_c4d2c1ad48158737f7ce5f12.png": {
+    "sha256": "c4d2c1ad48158737f7ce5f12aaa48c8b038ec865c2ca6b283480bd2f6828dd63",
+    "source_names": [
+      "rubber_color"
+    ],
+    "models": [
+      "shop.glb",
+      "ellis.glb",
+      "facility.glb",
+      "hands.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_a9e185e6503707a1e345bb4c.png": {
+    "sha256": "a9e185e6503707a1e345bb4cc46ac74e82abf73c6f14a859853c0e27ae8cdaaf",
+    "source_names": [
+      "rubber_rough"
+    ],
+    "models": [
+      "shop.glb",
+      "ellis.glb",
+      "facility.glb",
+      "hands.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_5472b2a4d1d7956cd0bc88ef.png": {
+    "sha256": "5472b2a4d1d7956cd0bc88ef975b8c02abda52f762605ab52a9fe83801cd6ddc",
+    "source_names": [
+      "plastic_normal"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb",
+      "hands.glb"
+    ]
+  },
+  "h_b5dbc987edebf1b0223007f1.png": {
+    "sha256": "b5dbc987edebf1b0223007f19ac3be406cbc4ced8bc7c6218d4ddfa4ae735e79",
+    "source_names": [
+      "plastic_color"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb",
+      "hands.glb"
+    ]
+  },
+  "h_d1854a13041c340f3da24373.png": {
+    "sha256": "d1854a13041c340f3da24373d6a4969ed7d6e8c6beb73b6608ea74ebc26de006",
+    "source_names": [
+      "plastic_rough"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb",
+      "hands.glb"
+    ]
+  },
+  "h_ae19473b258747b7a808ce96.png": {
+    "sha256": "ae19473b258747b7a808ce9622d575c1fbb2ecee42378ad3a3f032ef0328ea11",
+    "source_names": [
+      "pcb_normal"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_272f93009f0609d09eec8da0.png": {
+    "sha256": "272f93009f0609d09eec8da09a36b220609d917789066e01d6905cf1d27874b8",
+    "source_names": [
+      "pcb_color"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_d82aaca4949b2a2191092d29.png": {
+    "sha256": "d82aaca4949b2a2191092d293d816eac74ea393b1cc80e2fd12139b1ce1ffece",
+    "source_names": [
+      "pcb_rough"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_368e34f7bb268a4f11b136db.png": {
+    "sha256": "368e34f7bb268a4f11b136db2082d47695916d5b61be7bdb8e540cdabd796119",
+    "source_names": [
+      "paper_normal"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb",
+      "hands.glb"
+    ]
+  },
+  "h_0901d4f85ce3082cbd87f0b0.png": {
+    "sha256": "0901d4f85ce3082cbd87f0b05c3da229f0f049c8723beec70a8204d1571aadf8",
+    "source_names": [
+      "paper_color"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb",
+      "hands.glb"
+    ]
+  },
+  "h_e003ee6ab19a08b8b6cbaa39.png": {
+    "sha256": "e003ee6ab19a08b8b6cbaa3959e5fbbadfc55c0823980f06829a415a7b7f1953",
+    "source_names": [
+      "paper_rough"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb",
+      "hands.glb"
+    ]
+  },
+  "h_518ff1164cdb98461450a0eb.png": {
+    "sha256": "518ff1164cdb98461450a0ebd2f41d0c58969d7dd6a2b94c852d5cfa811f9974",
+    "source_names": [
+      "bios_idle"
+    ],
+    "models": [
+      "shop.glb"
+    ]
+  },
+  "h_0d10c4931b8c537fc114c9e9.png": {
+    "sha256": "0d10c4931b8c537fc114c9e9cc4d8c8f2c0e1d455040fd9c9abcfe3d2dfe167e",
+    "source_names": [
+      "receipt"
+    ],
+    "models": [
+      "shop.glb"
+    ]
+  },
+  "h_4f9b06c80c5d342674a3ba22.png": {
+    "sha256": "4f9b06c80c5d342674a3ba22bf20fdc92e318b57bf9fbb31ca213e4138798d59",
+    "source_names": [
+      "bios_fixed"
+    ],
+    "models": [
+      "shop.glb"
+    ]
+  },
+  "h_d256f015576f1ed814eca6da.png": {
+    "sha256": "d256f015576f1ed814eca6daeabbbe6e5c5f25d90e47fdd7a76407f2b6ade5b5",
+    "source_names": [
+      "cloth_normal"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb",
+      "hands.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_c4c2988eeedaf54f56f1a710.png": {
+    "sha256": "c4c2988eeedaf54f56f1a710f0cd9fc95bfe57361de1122243c6631fb16a2ed1",
+    "source_names": [
+      "cloth_color"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb",
+      "hands.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_fe4cda5fc2785308851e33b5.png": {
+    "sha256": "fe4cda5fc2785308851e33b51a1fe4189c6230ed2f53beca37838f25be9732d8",
+    "source_names": [
+      "cloth_rough"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb",
+      "hands.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_d83c24a503a98a43721580b7.png": {
+    "sha256": "d83c24a503a98a43721580b7c278ddc79734c6bbc95a708e3b860f3d38cd0cbe",
+    "source_names": [
+      "asphalt_normal"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_c49ac556ced83670665668b2.png": {
+    "sha256": "c49ac556ced83670665668b2229bf08a31fa587abd3cfbfffd457f0f7e6e9946",
+    "source_names": [
+      "asphalt_color"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_2f23cbe86310586045ab9b97.png": {
+    "sha256": "2f23cbe86310586045ab9b97d9287b4abc961f78b6d5722757d84b53440f131c",
+    "source_names": [
+      "asphalt_rough"
+    ],
+    "models": [
+      "shop.glb",
+      "facility.glb"
+    ]
+  },
+  "h_ca125e871ea88cd8d2108e0b.png": {
+    "sha256": "ca125e871ea88cd8d2108e0be35e7ce4e582e43f56de61f5b68d7d21ea22de4a",
+    "source_names": [
+      "ellis_cloth_normal"
+    ],
+    "models": [
+      "ellis.glb"
+    ]
+  },
+  "h_d889726c9013377e557ff29a.png": {
+    "sha256": "d889726c9013377e557ff29ac17d0a01134c6a42cfe52cbbc00937eb1eea9cd8",
+    "source_names": [
+      "ellis_cloth_color"
+    ],
+    "models": [
+      "ellis.glb"
+    ]
+  },
+  "h_67534b38f680cdc684b2fc90.png": {
+    "sha256": "67534b38f680cdc684b2fc9076e48c0e2579ad115f47aacc4a8fa522c14dd9e4",
+    "source_names": [
+      "ellis_cloth_rough"
+    ],
+    "models": [
+      "ellis.glb"
+    ]
+  },
+  "h_06f6f29e70e5338203d3af52.png": {
+    "sha256": "06f6f29e70e5338203d3af5243bef63bc88db98d78d0a5f9fd7d018da6de72b6",
+    "source_names": [
+      "skin_normal"
+    ],
+    "models": [
+      "ellis.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_547da8f3163f3e8cc271c996.png": {
+    "sha256": "547da8f3163f3e8cc271c996539391c6b021daac55e7f7777ec0b77a7b48ae47",
+    "source_names": [
+      "skin_color"
+    ],
+    "models": [
+      "ellis.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_6782175d24c7cd08962d5308.png": {
+    "sha256": "6782175d24c7cd08962d5308ae103dde088178ec0f7ff962b1874109b6b98cc1",
+    "source_names": [
+      "skin_rough"
+    ],
+    "models": [
+      "ellis.glb",
+      "oleg.glb"
+    ]
+  },
+  "h_d45eadefd93aa0205c77a300.png": {
+    "sha256": "d45eadefd93aa0205c77a300f27d647bfeff500f7325daa61bde6b109750e686",
+    "source_names": [
+      "ellis_skin_normal"
+    ],
+    "models": [
+      "ellis.glb"
+    ]
+  },
+  "h_22fba7392433d9b25fa10c5b.png": {
+    "sha256": "22fba7392433d9b25fa10c5b3054c5439c4e6fd3516a041c91a83de858f79000",
+    "source_names": [
+      "ellis_skin_color"
+    ],
+    "models": [
+      "ellis.glb"
+    ]
+  },
+  "h_b188915c38b9f6140fadd1a8.png": {
+    "sha256": "b188915c38b9f6140fadd1a82493248404cb2702f670a96b6952a69575148116",
+    "source_names": [
+      "ellis_skin_rough"
+    ],
+    "models": [
+      "ellis.glb"
+    ]
+  }
+}

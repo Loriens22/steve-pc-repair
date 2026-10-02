@@ -1,10 +1,7 @@
 .godot/
 *.blend1
-*.tmp
-*.mp3
 __pycache__/
 *.pyc
-docs/*-build.log
-docs/import.log
-docs/export.log
-docs/runtime.log
+docs/*.log
+docs/fixture_*.json
+web/

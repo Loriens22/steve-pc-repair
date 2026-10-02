@@ -116,45 +116,59 @@
   "arrival": [
     {
       "speaker": "OLEG",
-      "text": "Meridian sublevel eight. Your badge says night maintenance. Try to look underpaid.",
-      "shot": "vault",
-      "audio": "arrival_00",
-      "duration": 8.16
+      "text": "Your badge is for night maintenance. Enter through the loading bay.",
+      "audio": "fps_arrival_0",
+      "shot": "alley",
+      "duration": 5.832
     },
     {
       "speaker": "STEVE",
-      "text": "I run a repair shop. I've been rehearsing all my life.",
-      "shot": "steve",
-      "audio": "arrival_01",
-      "duration": 5.52
+      "text": "Underpaid and underestimated. Perfect.",
+      "audio": "fps_arrival_1",
+      "shot": "alley",
+      "duration": 4.872
     },
     {
       "speaker": "OLEG",
-      "text": "Security uses a closed circuit. Coolant, access, then the core. In that order.",
-      "shot": "vault",
-      "audio": "arrival_02",
-      "duration": 8.712
+      "text": "Security feed zero seven. Keep the watchdog powered. Seat the bridge on a green diagnostic pulse.",
+      "audio": "fps_arrival_2",
+      "shot": "power",
+      "duration": 9.36
     },
     {
       "speaker": "STEVE",
-      "text": "And the cameras?",
-      "shot": "steve",
-      "audio": "arrival_03",
-      "duration": 2.088
+      "text": "Nobody reads the maintenance manual until something starts going bang.",
+      "audio": "fps_arrival_3",
+      "shot": "alley",
+      "duration": 5.112
     },
     {
       "speaker": "OLEG",
-      "text": "A patrol drone. Keep out of the red cone. That cart has a spare identity.",
-      "shot": "cart",
-      "audio": "arrival_04",
-      "duration": 7.728
+      "text": "The chiller is down. Spare fuses are in the power room. Check the rating. I am not paying for a second Steve.",
+      "audio": "fps_arrival_4",
+      "shot": "power",
+      "duration": 10.704
     },
     {
       "speaker": "STEVE",
-      "text": "All right. Let's fix somebody's very expensive mistake.",
-      "shot": "wide",
-      "audio": "arrival_05",
-      "duration": 5.592
+      "text": "Give me a meter and some quiet.",
+      "audio": "fps_arrival_5",
+      "shot": "alley",
+      "duration": 2.88
+    },
+    {
+      "speaker": "OLEG",
+      "text": "Copy the archive before destroying the root key. Your encrypted drive is in the kit.",
+      "audio": "fps_arrival_6",
+      "shot": "archive",
+      "duration": 6.936
+    },
+    {
+      "speaker": "STEVE",
+      "text": "Backup first. Then the battery.",
+      "audio": "fps_arrival_7",
+      "shot": "alley",
+      "duration": 4.296
     }
   ],
   "core": [
@@ -181,10 +195,10 @@
     },
     {
       "speaker": "STEVE",
-      "text": "Those are people's lives in there. I'm taking a backup first.",
+      "text": "Those are people's lives. The backup is safe. Now we take the key down.",
+      "audio": "fps_core_backup",
       "shot": "steve",
-      "audio": "core_03",
-      "duration": 5.688
+      "duration": 7.536
     },
     {
       "speaker": "MERIDIAN",
@@ -258,5 +272,63 @@
       "audio": "ending_07",
       "duration": 7.896
     }
-  ]
+  ],
+  "hints": {
+    "camera_loop": {
+      "speaker": "OLEG",
+      "text": "You have given security a recording of itself. Nice trick.",
+      "audio": "fps_camera_loop",
+      "shot": "phone",
+      "duration": 5.736
+    },
+    "pump_online": {
+      "speaker": "STEVE",
+      "text": "Six point three amps. Protective equipment with an actual job.",
+      "audio": "fps_pump_online",
+      "shot": "phone",
+      "duration": 5.952
+    },
+    "cooling_ready": {
+      "speaker": "OLEG",
+      "text": "The thermal interlock is green. The archive is in the east office.",
+      "audio": "fps_cooling_ready",
+      "shot": "phone",
+      "duration": 5.832
+    },
+    "copy_ready": {
+      "speaker": "STEVE",
+      "text": "There she is. Ms. Ellis, page seven. This one is coming with me.",
+      "audio": "fps_copy_ready",
+      "shot": "phone",
+      "duration": 7.344
+    },
+    "key_down": {
+      "speaker": "MERIDIAN",
+      "text": "Signing key invalid. Emergency security restored.",
+      "audio": "fps_key_down",
+      "shot": "phone",
+      "duration": 5.544
+    },
+    "escape": {
+      "speaker": "OLEG",
+      "text": "Roof hatch. West maintenance bay. They know. Keep your light off.",
+      "audio": "fps_escape",
+      "shot": "phone",
+      "duration": 8.304
+    },
+    "wrong_fuse": {
+      "speaker": "STEVE",
+      "text": "That rating is wrong. Protect the motor, not the inventory.",
+      "audio": "fps_wrong_fuse",
+      "shot": "phone",
+      "duration": 5.76
+    },
+    "ellisbios": {
+      "speaker": "STEVE",
+      "text": "Twenty twenty six. Not bad for something they wanted to throw away.",
+      "audio": "fps_ellisbios",
+      "shot": "phone",
+      "duration": 6.144
+    }
+  }
 }
