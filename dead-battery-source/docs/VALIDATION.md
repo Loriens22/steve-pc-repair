@@ -43,4 +43,17 @@ python3 -m http.server 8081 --directory web
 python3 tools/browser_qa.py
 ```
 
-The public GitHub Pages build is also smoke-tested after publication. The browser pack uses a new filename to prevent an earlier version's cached assets from loading.
+## Published build
+
+The [GitHub Pages game](https://loriens22.github.io/steve-pc-repair/dead-battery/?v=first-person) passed its public browser smoke test after publication:
+
+- Actual first-person walking, mouse looking, crouching and tool changes.
+- Boot verification, generated cinematic dialogue with measured audible output, caption advancement and scene skipping.
+- Simultaneous independent touches for walking and looking, precision-pick selection and a held ACT repair on the actual battery clip.
+- Portrait and landscape control layouts, tool selection and a minimum 44 CSS-pixel ACT target.
+- No failed asset requests, browser page errors or Godot gameplay script errors.
+
+Each downloaded part was checked against its SHA-256. The assembled 54,564,136-byte pack matches the exact locally tested game: `fa50bc9ded8706195e5ee71dae71afe05285be5887ce3c7ea3faf6a8c6cfbb69`. Content-addressed download parts prevent older cached packs from loading. The repository's main play page opens this first-person version.
+
+The software-rendered local packaging smoke test initially tapped a landscape control before resize had settled; the input driver now waits for the actual viewport aspect ratio before targeting the resized controls. The public suite completed successfully. These checks establish browser and touch functionality, rather than physical-phone performance.
+

@@ -1,15 +1,34 @@
 """Browser input and rendering checks. Fixtures come from the native full-mission traversal.
 No runtime setters: gameplay is driven through browser keyboard, mouse and CDP touch events.
 """
-import asyncio,ast,json,math,os
+import asyncio,json,math,os
 from pathlib import Path
 from playwright.async_api import async_playwright
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'docs';URL=os.environ.get('STEVE_TEST_URL','http://127.0.0.1:8081/')
-AUDIO_PROBE=''
-old=Path('/tmp/steve_public_smoke.py')
-if old.exists():
- for n in ast.parse(old.read_text()).body:
-  if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='AUDIO_PROBE' for t in n.targets):AUDIO_PROBE=ast.literal_eval(n.value)
+AUDIO_PROBE = """window.steveAudioProbe = {peak:0, samples:0, contexts:[]};
+const connectOriginal = AudioNode.prototype.connect;
+AudioNode.prototype.connect = function(destination, ...rest) {
+  const result = connectOriginal.call(this, destination, ...rest);
+  if (destination instanceof AudioDestinationNode && !this.__steveProbed) {
+    this.__steveProbed = true;
+    const analyser = this.context.createAnalyser();
+    analyser.fftSize = 1024;
+    const mute = this.context.createGain(); mute.gain.value = 0;
+    connectOriginal.call(this, analyser);
+    connectOriginal.call(analyser, mute);
+    connectOriginal.call(mute, destination);
+    window.steveAudioProbe.contexts.push(this.context);
+    const values = new Float32Array(1024);
+    setInterval(() => {
+      analyser.getFloatTimeDomainData(values);
+      let peak = 0; for (const x of values) peak = Math.max(peak, Math.abs(x));
+      window.steveAudioProbe.peak = Math.max(window.steveAudioProbe.peak, peak);
+      window.steveAudioProbe.samples += 1;
+    }, 100);
+  }
+  return result;
+};
+"""
 report=[]
 def record(message):report.append(message);print(message,flush=True)
 async def state(page):return await page.evaluate('window.steveState')
@@ -98,7 +117,7 @@ async def main():
     await g.button('DUCK');await check(g.page,'s.crouched');await g.button('STAND');await check(g.page,'!s.crouched')
     await g.button('TOOLS');await check(g.page,'s.panel');await g.button('3 / PRECISION PICK');await check(g.page,'s.tool===3 && !s.panel')
     await g.use('pc_clip','s.repair===5');await g.button('TOOLS');await check(g.page,'s.panel');await g.button('0 / HANDS');await check(g.page,'s.tool===0 && !s.panel');await g.use('pc_cell','s.repair===6');await g.shot('mobile-portrait-repair')
-    await g.page.set_viewport_size({'width':844,'height':390});await asyncio.sleep(1.5);await g.shot('mobile-landscape-repair');s=await state(g.page);b=next(b for b in s['controls'] if b['text']=='ACT');assert b['width']*844/s['viewport'][0]>=44;await g.button('TOOLS');await check(g.page,'s.panel');await g.button('2 / MULTIMETER');await check(g.page,'s.tool===2 && !s.panel');record('PASS landscape tool selection and minimum 44-pixel action target')
+    await g.page.set_viewport_size({'width':844,'height':390});await check(g.page,'Math.abs(s.viewport[0]/s.viewport[1]-844/390)<.01');await g.shot('mobile-landscape-repair');s=await state(g.page);b=next(b for b in s['controls'] if b['text']=='ACT');assert b['width']*844/s['viewport'][0]>=44;await g.button('TOOLS');await check(g.page,'s.panel');await g.button('2 / MULTIMETER');await check(g.page,'s.tool===2 && !s.panel');record('PASS landscape tool selection and minimum 44-pixel action target')
     assert not any('SCRIPT ERROR' in l or 'PAGE ERROR' in l for l in logs),logs;await c.close()
    c,g,logs=await launch_case(browser,'repaired')
    await g.calibrate();await g.use('pc_bios','s.state==="opening"');await g.shot('cinematic-ellis')

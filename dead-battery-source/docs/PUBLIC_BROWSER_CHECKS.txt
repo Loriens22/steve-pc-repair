@@ -1,0 +1,19 @@
+PASS desktop public WebGL game and chunked download loaded
+FRAME public-first-person-title / title / 2 FPS on software GPU
+PASS player-height first-person camera
+PASS actual mouse drag changes first-person yaw / gain 0.00384
+FRAME public-first-person-shop / shop_repair / 1 FPS on software GPU
+PASS public movement, crouch and tool selection
+PASS desktop public WebGL game and chunked download loaded
+PASS actual mouse drag changes first-person yaw / gain 0.00384
+PASS keyboard E performs pc_bios
+PASS public generated cinematic dialogue produces audible output
+FRAME public-first-person-dialogue / opening / 1 FPS on software GPU
+PASS mobile public WebGL game and chunked download loaded
+PASS actual touch swipe changes first-person yaw / gain 0.00679
+PASS public simultaneous mobile movement and looking
+PASS touch ACT performs pc_clip
+FRAME public-first-person-mobile-portrait / shop_repair / 1 FPS on software GPU
+FRAME public-first-person-mobile-landscape / shop_repair / 1 FPS on software GPU
+PASS public held ACT repair and portrait/landscape touch controls
+PUBLIC FIRST-PERSON SMOKE PASS
